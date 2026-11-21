@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sameen - Web Developer Portfolio. Aesthetic, modern, and feminine Pinterest-inspired web experiences crafted with soft luxury, warm typography, and clean code.">
+  <title>Sameen | Web Developer</title>
+  
+  <!-- Google Fonts: Playfair Display for editorial elegance & Plus Jakarta Sans for modern clarity -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==============================================
+       HEADER & NAVIGATION BAR
+       ============================================== -->
+  <header class="header">
+    <nav class="navbar" id="navbar" aria-label="Main Navigation">
+      <div class="nav-container">
+        
+        <!-- Logo -->
+        <a href="#home" class="nav-logo" aria-label="Sameen Home">
+          <span class="logo-text">Sameen</span>
+          <span class="logo-dot" aria-hidden="true">.</span>
+        </a>
+
+        <!-- Navigation Links -->
+        <div class="nav-menu-wrapper" id="nav-menu-wrapper">
+          <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link nav-link-contact">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Mobile Menu Footer Decoration -->
+          <div class="mobile-menu-footer">
+            <span class="menu-footer-dot">✦</span>
+            <span>Creative Portfolio ♡</span>
+          </div>
+        </div>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu-wrapper">
+          <span class="hamburger-line line-1"></span>
+          <span class="hamburger-line line-2"></span>
+          <span class="hamburger-line line-3"></span>
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==============================================
+       HERO SECTION
+       ============================================== -->
+  <main>
+    <section class="hero-section" id="home">
+      
+      <!-- Background Ambient Glow Orbs -->
+      <div class="glow-orb glow-top-left" aria-hidden="true"></div>
+      <div class="glow-orb glow-bottom-right" aria-hidden="true"></div>
+      <div class="glow-orb glow-center" aria-hidden="true"></div>
+
+      <!-- Subtle Ambient Decorative Accents -->
+      <div class="decorative-layer" aria-hidden="true">
+        <div class="floating-item float-gentle shape-decor item-7"></div>
+        <div class="floating-item float-gentle shape-decor item-8"></div>
+      </div>
+
+      <!-- Hero Main Content Grid -->
+      <div class="hero-container">
+        
+        <!-- Left: Text Content -->
+        <div class="hero-content">
+          
+          <!-- Welcome Badge -->
+          <div class="hero-badge animate-fade-in">
+            <span class="badge-dot" aria-hidden="true"></span>
+            <span class="badge-text">CREATIVE WEB DEVELOPER</span>
+          </div>
+
+          <!-- Main Heading -->
+          <h1 class="hero-heading animate-fade-in delay-1">
+            Hi, I'm <span class="highlight-name">Sameen</span>
+          </h1>
+
+          <!-- Animated Typing Subheading -->
+          <div class="hero-role-wrapper animate-fade-in delay-2">
+            <span class="role-prefix">I am a&nbsp;</span>
+            <span class="typing-text" id="typing-text">Web Developer</span>
+            <span class="typing-cursor" aria-hidden="true">|</span>
+          </div>
+
+          <!-- Short Introduction -->
+          <p class="hero-intro animate-fade-in delay-3">
+            I create beautiful, responsive and user-friendly websites using HTML, CSS and JavaScript.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-buttons animate-fade-in delay-4">
+            <a href="#projects" class="btn btn-primary" id="btn-explore">
+              <span class="btn-text">Explore My Work</span>
+              <span class="btn-arrow" aria-hidden="true">
+                <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary" id="btn-contact">
+              <span class="btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                </svg>
+              </span>
+              <span class="btn-text">Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Quick Skills Pill Badges -->
+          <div class="hero-tags animate-fade-in delay-5">
+            <span class="tag-label">Specializing in:</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Responsive UI</span>
+          </div>
+
+        </div>
+
+        <!-- Right: Profile Card & Elegant Visual Placeholder -->
+        <div class="hero-visual animate-fade-in delay-2">
+          
+          <!-- Outer Floating Card Frame -->
+          <div class="profile-card-wrapper">
+            
+            <!-- Radiant Background Glow Ring -->
+            <div class="avatar-glow-ring" aria-hidden="true"></div>
+
+            <!-- Profile Media Box -->
+            <div class="profile-card">
+              
+              <!-- Real Profile Image: Pink Hijab Portrait Photo -->
+              <img 
+                src="assets/profile.jpg" 
+                alt="Sameen - Web Developer Profile Photo" 
+                class="profile-img" 
+                id="profile-img"
+                loading="eager"
+              >
+
+              <!-- Fallback Artwork (only displayed if profile.jpg fails to load) -->
+              <div class="profile-placeholder" id="profile-svg-placeholder" style="display: none;">
+                <div class="placeholder-art">
+                  
+                  <!-- Creative Developer Graphic (Feminine Soft Luxury Pinterest Style) -->
+                  <svg viewBox="0 0 200 220" width="180" height="200" class="portrait-svg" aria-label="Cute Creative Developer Illustration">
+                    <defs>
+                      <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#36282E" />
+                        <stop offset="100%" stop-color="#20171B" />
+                      </linearGradient>
+                      <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#FFF3EB" />
+                        <stop offset="100%" stop-color="#FCDDCB" />
+                      </linearGradient>
+                      <linearGradient id="sweaterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#C58B9E" />
+                        <stop offset="100%" stop-color="#A86378" />
+                      </linearGradient>
+                      <linearGradient id="screenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#FFFFFF" />
+                        <stop offset="100%" stop-color="#F7ECE9" />
+                      </linearGradient>
+                    </defs>
+
+                    <!-- Back Hair Bun / Soft Volume -->
+                    <circle cx="100" cy="56" r="48" fill="url(#hairGradient)" opacity="0.95" />
+                    
+                    <!-- Neck -->
+                    <path d="M92 95 L92 120 L108 120 L108 95 Z" fill="url(#skinGradient)" />
+                    
+                    <!-- Face Silhouette -->
+                    <ellipse cx="100" cy="82" rx="28" ry="32" fill="url(#skinGradient)" />
+                    
+                    <!-- Front Hair Bangs & Cute Side Tendrils -->
+                    <path d="M72 72 Q100 48 128 72 Q122 92 118 100 Q100 68 82 100 Z" fill="url(#hairGradient)" />
+                    <path d="M72 76 Q82 106 84 120 Q75 106 72 76 Z" fill="url(#hairGradient)" />
+                    <path d="M128 76 Q118 106 116 120 Q125 106 128 76 Z" fill="url(#hairGradient)" />
+                    
+                    <!-- Delicate Butter-Yellow Star Hairpin -->
+                    <circle cx="126" cy="54" r="6" fill="#FBF0CE" stroke="#D4A338" stroke-width="1.5" />
+                    <text x="126" y="57" font-size="8" fill="#D4A338" text-anchor="middle" font-weight="bold">✦</text>
+
+                    <!-- Cute Soft Blush Cheeks -->
+                    <ellipse cx="85" cy="88" rx="6" ry="3.5" fill="#E8A5B8" opacity="0.55" />
+                    <ellipse cx="115" cy="88" rx="6" ry="3.5" fill="#E8A5B8" opacity="0.55" />
+
+                    <!-- Cozy Dusty-Rose Knit Sweater & Blush Collar -->
+                    <path d="M60 148 C60 120, 85 118, 100 118 C115 118, 140 120, 140 148 L140 190 L60 190 Z" fill="url(#sweaterGradient)" stroke="#C58B9E" stroke-width="1.2" />
+                    <!-- Delicate Curved Collar -->
+                    <path d="M85 118 C92 126, 98 128, 100 128 C102 128, 108 126, 115 118 Z" fill="#F7ECE9" stroke="#C58B9E" stroke-width="1" />
+
+                    <!-- Minimal Clean Modern Laptop (Blush & Soft White) -->
+                    <rect x="52" y="152" width="96" height="58" rx="6" fill="url(#screenGradient)" stroke="#C58B9E" stroke-width="1.8"/>
+                    <rect x="42" y="206" width="116" height="6" rx="3" fill="#F7ECE9" stroke="#C58B9E" stroke-width="1.2"/>
+                    
+                    <!-- Code Symbols on Laptop Screen -->
+                    <text x="100" y="180" font-family="'Plus Jakarta Sans', monospace" font-size="14" font-weight="700" fill="#C58B9E" text-anchor="middle">&lt; / &gt;</text>
+                    <line x1="68" y1="192" x2="88" y2="192" stroke="#C58B9E" stroke-width="2.5" stroke-linecap="round"/>
+                    <line x1="96" y1="192" x2="132" y2="192" stroke="#DFC1CB" stroke-width="2.5" stroke-linecap="round"/>
+                  </svg>
+
+                  <div class="placeholder-caption">
+                    <span class="caption-name">Sameen</span>
+                    <span class="caption-title">Web Developer ♡</span>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Floating Micro Card 1: Top-Right -->
+            <div class="floating-badge badge-top-right">
+              <span class="badge-icon-accent">✦</span>
+              <div class="badge-info">
+                <span class="badge-sub">Modern &amp; Clean</span>
+                <span class="badge-main">Creative Design</span>
+              </div>
+            </div>
+
+            <!-- Floating Micro Card 2: Bottom-Left -->
+            <div class="floating-badge badge-bottom-left">
+              <span class="badge-icon-accent">&lt;/&gt;</span>
+              <div class="badge-info">
+                <span class="badge-sub">Quality Code</span>
+                <span class="badge-main">Web Developer</span>
+              </div>
+            </div>
+
+            <!-- Sleek Availability Status Badge -->
+            <div class="floating-badge badge-accent">
+              <span class="status-pulse-dot" aria-hidden="true"></span>
+              <span class="status-text">Available for Projects ♡</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <a href="#about" class="scroll-down-indicator" id="scroll-indicator" aria-label="Scroll down to About section">
+        <span class="scroll-text">Scroll Down</span>
+        <div class="mouse-icon">
+          <div class="mouse-wheel"></div>
+        </div>
+        <div class="scroll-arrow">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+      </a>
+
+    </section>
+
+    <!-- ==============================================
+         ABOUT ME SECTION
+         ============================================== -->
+    <section class="about-section" id="about" aria-label="About Me">
+      
+      <!-- Ambient Glow Orbs for Soft Background Atmosphere -->
+      <div class="about-glow about-glow-left" aria-hidden="true"></div>
+      <div class="about-glow about-glow-right" aria-hidden="true"></div>
+
+      <div class="about-container">
+        
+        <!-- Two-Column Editorial Layout -->
+        <div class="about-layout-grid">
+          
+          <!-- Column 1 (Left): Heading, Story Narrative, 3 Info Cards & Actions -->
+          <div class="about-content-col">
+            
+            <!-- Section Badge -->
+            <div class="about-badge reveal-on-scroll">
+              <span class="badge-dot" aria-hidden="true">✦</span>
+              <span class="badge-text">ABOUT ME</span>
+            </div>
+
+            <!-- Section Heading -->
+            <h2 class="about-heading reveal-on-scroll delay-1">
+              Passionate About <span class="highlight-text">Web Development</span> &amp; Modern UI
+            </h2>
+
+            <!-- Narrative Paragraphs -->
+            <div class="about-text-block reveal-on-scroll delay-2">
+              <p class="about-lead">
+                Hi, I'm Sameen! I am a <strong>BS Software Engineering graduate</strong> and an aspiring <strong>Web Developer</strong> with a passion for creating clean, modern, and user-friendly digital experiences.
+              </p>
+              
+              <p class="about-paragraph">
+                I am interested in creating modern, responsive, and user-friendly websites where structured code harmonizes with thoughtful visual aesthetics. I focus on developing intuitive interfaces that feel welcoming, accessible, and seamless across every device.
+              </p>
+              
+              <p class="about-paragraph">
+                I continuously enjoy exploring new technologies, refining my problem-solving capabilities, and improving both my design and coding craftsmanship.
+              </p>
+            </div>
+
+            <!-- Editorial Current Focus Bar -->
+            <div class="about-focus-bar reveal-on-scroll delay-2">
+              <span class="focus-star" aria-hidden="true">✦</span>
+              <span class="focus-text"><strong>Current Focus:</strong> Web Development &nbsp;|&nbsp; Responsive UI &nbsp;|&nbsp; Social Media Marketing</span>
+            </div>
+
+            <!-- 2-3 Small Information Cards Grid -->
+            <div class="about-info-cards-grid reveal-on-scroll delay-3">
+              
+              <!-- Card 1: Academic Foundation -->
+              <div class="about-info-card">
+                <div class="info-card-top">
+                  <div class="info-bubble">
+                    <span class="info-icon">🎓</span>
+                  </div>
+                  <span class="info-pill">Degree</span>
+                </div>
+                <h3 class="info-card-title">BS Software Engineering</h3>
+                <p class="info-card-desc">Grounded in engineering principles, problem-solving, algorithms, and clean software architecture.</p>
+              </div>
+
+              <!-- Card 2: Web Development Focus -->
+              <div class="about-info-card">
+                <div class="info-card-top">
+                  <div class="info-bubble">
+                    <span class="info-icon">💻</span>
+                  </div>
+                  <span class="info-pill">Development</span>
+                </div>
+                <h3 class="info-card-title">Aspiring Web Developer</h3>
+                <p class="info-card-desc">Building modern, responsive, and user-friendly websites with clean HTML5, CSS3, and JavaScript.</p>
+              </div>
+
+              <!-- Card 3: Creative Interests -->
+              <div class="about-info-card">
+                <div class="info-card-top">
+                  <div class="info-bubble">
+                    <span class="info-icon">🎨</span>
+                  </div>
+                  <span class="info-pill">Interests</span>
+                </div>
+                <h3 class="info-card-title">Creative UI &amp; Marketing</h3>
+                <p class="info-card-desc">Exploring aesthetic interface design, user engagement, and creative social media marketing strategies.</p>
+              </div>
+
+            </div>
+
+            <!-- Action Area / Download CV -->
+            <div class="about-actions reveal-on-scroll delay-4">
+              <a 
+                href="assets/Sameen-CV.pdf" 
+                class="btn btn-primary" 
+                id="download-cv-btn" 
+                download="Sameen-CV.pdf"
+                aria-label="Download Sameen's Curriculum Vitae"
+              >
+                <span class="btn-cv-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                </span>
+                <span class="btn-text">Download CV</span>
+                <span class="btn-cv-badge" id="cv-status-badge">PDF</span>
+              </a>
+
+              <a href="#contact" class="btn btn-secondary" aria-label="Get in touch with Sameen">
+                <span class="btn-text">Get in Touch</span>
+                <span class="btn-arrow" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Column 2 (Right): Profile Image Frame & Decorative Elements -->
+          <div class="about-visual-col reveal-on-scroll delay-2">
+            
+            <div class="about-visual-wrapper">
+              
+              <!-- Radiant Ambient Halo Ring -->
+              <div class="about-avatar-glow" aria-hidden="true"></div>
+
+              <!-- Main Profile Media Card -->
+              <div class="about-profile-card">
+                
+                <!-- Real Profile Image: Pink Hijab Portrait Photo -->
+                <img 
+                  src="assets/profile.jpg" 
+                  alt="Sameen - Web Developer Portrait Photo" 
+                  class="about-img" 
+                  id="about-profile-img"
+                  loading="lazy"
+                >
+
+                <!-- Fallback Artwork (only displayed if about-profile.jpg fails to load) -->
+                <div class="about-img-placeholder" id="about-svg-placeholder" style="display: none;">
+                  <div class="placeholder-graphic">
+                    <svg viewBox="0 0 200 220" width="180" height="200" class="about-portrait-svg" aria-label="Sameen Portrait Illustration">
+                      <defs>
+                        <linearGradient id="aboutHairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" stop-color="#36282E" />
+                          <stop offset="100%" stop-color="#20171B" />
+                        </linearGradient>
+                        <linearGradient id="aboutSkinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" stop-color="#FFF3EB" />
+                          <stop offset="100%" stop-color="#FCDDCB" />
+                        </linearGradient>
+                        <linearGradient id="aboutSweaterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" stop-color="#C58B9E" />
+                          <stop offset="100%" stop-color="#A86378" />
+                        </linearGradient>
+                      </defs>
+
+                      <!-- Background Circle Accent -->
+                      <circle cx="100" cy="95" r="82" fill="#F9F2EF" stroke="#EFE4DE" stroke-width="2"/>
+                      
+                      <!-- Back Hair Volume -->
+                      <circle cx="100" cy="62" r="44" fill="url(#aboutHairGrad)" opacity="0.95" />
+                      
+                      <!-- Neck -->
+                      <path d="M92 98 L92 122 L108 122 L108 98 Z" fill="url(#aboutSkinGrad)" />
+                      
+                      <!-- Face Silhouette -->
+                      <ellipse cx="100" cy="85" rx="26" ry="30" fill="url(#aboutSkinGrad)" />
+                      
+                      <!-- Bangs and Side Tendrils -->
+                      <path d="M74 74 Q100 52 126 74 Q120 94 116 100 Q100 70 84 100 Z" fill="url(#aboutHairGrad)" />
+                      <path d="M74 78 Q84 106 86 118 Q77 106 74 78 Z" fill="url(#aboutHairGrad)" />
+                      <path d="M126 78 Q116 106 114 118 Q123 106 126 78 Z" fill="url(#aboutHairGrad)" />
+                      
+                      <!-- Soft Blush Cheeks -->
+                      <ellipse cx="86" cy="90" rx="5.5" ry="3" fill="#E8A5B8" opacity="0.55" />
+                      <ellipse cx="114" cy="90" rx="5.5" ry="3" fill="#E8A5B8" opacity="0.55" />
+
+                      <!-- Butter Yellow Star Hairpin -->
+                      <circle cx="124" cy="58" r="6" fill="#FBF0CE" stroke="#D4A338" stroke-width="1.5" />
+                      <text x="124" y="61" font-size="8" fill="#D4A338" text-anchor="middle" font-weight="bold">✦</text>
+
+                      <!-- Dusty Rose Knit Sweater & Blush Collar -->
+                      <path d="M62 148 C62 122, 85 120, 100 120 C115 120, 138 122, 138 148 L138 196 L62 196 Z" fill="url(#aboutSweaterGrad)" stroke="#C58B9E" stroke-width="1.2" />
+                      <path d="M86 120 C92 128, 98 130, 100 130 C102 130, 108 128, 114 120 Z" fill="#F7ECE9" stroke="#C58B9E" stroke-width="1" />
+                    </svg>
+                  </div>
+                  <div class="about-img-caption">
+                    <span class="caption-name">Sameen</span>
+                    <span class="caption-role">Web Developer ♡</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Floating Micro Badge 1: Top-Right -->
+              <div class="about-floating-badge badge-top-right">
+                <span class="floating-badge-icon">✦</span>
+                <div class="floating-badge-text">
+                  <span class="floating-badge-sub">Modern &amp; Clean</span>
+                  <span class="floating-badge-main">Responsive UI</span>
+                </div>
+              </div>
+
+              <!-- Floating Micro Badge 2: Bottom-Left -->
+              <div class="about-floating-badge badge-bottom-left">
+                <span class="floating-badge-icon">&lt;/&gt;</span>
+                <div class="floating-badge-text">
+                  <span class="floating-badge-sub">Engineering Mindset</span>
+                  <span class="floating-badge-main">Clean Code</span>
+                </div>
+              </div>
+
+              <!-- Floating Status Pill: Bottom-Center -->
+              <div class="about-status-pill">
+                <span class="about-pulse-dot" aria-hidden="true"></span>
+                <span class="about-status-text">Learning &amp; Building Daily ♡</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ==============================================
+         SKILLS SECTION
+         ============================================== -->
+    <section class="skills-section" id="skills" aria-label="Skills and Toolkit">
+      
+      <!-- Background Ambient Glow Orbs -->
+      <div class="skills-glow skills-glow-top" aria-hidden="true"></div>
+      <div class="skills-glow skills-glow-bottom" aria-hidden="true"></div>
+
+      <div class="skills-container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">
+            <span class="badge-dot" aria-hidden="true">✦</span>
+            <span class="badge-text">MY TOOLKIT</span>
+          </div>
+          <h2 class="section-title">Skills &amp; <span class="highlight-text">Technologies</span></h2>
+          <p class="section-subtitle">A curated collection of web development technologies and creative digital tools I work with.</p>
+          <div class="header-divider" aria-hidden="true">
+            <span class="divider-line"></span>
+            <span class="divider-icon">✦</span>
+            <span class="divider-line"></span>
+          </div>
+        </div>
+
+        <!-- Skills 3x3 Grid -->
+        <div class="skills-grid">
+          
+          <!-- Skill 1: HTML5 -->
+          <div class="skill-card reveal-on-scroll delay-1">
+            <div class="skill-card-top">
+              <div class="skill-icon-bubble">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#C58B9E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <span class="skill-badge">Markup</span>
+            </div>
+            <h3 class="skill-name">HTML5</h3>
+            <p class="skill-desc">Semantic, well-structured, and accessible markup providing reliable foundations for modern web interfaces.</p>
+            <div class="skill-accent-detail">
+              <span class="accent-dot">✦</span>
+              <span class="accent-text">Semantic &amp; Accessible</span>
+            </div>
+          </div>
+
+          <!-- Skill 2: CSS3 -->
+          <div class="skill-card reveal-on-scroll delay-2">
+            <div class="skill-card-top">
+              <div class="skill-icon-bubble">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#C58B9E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                </svg>
+              </div>
+              <span class="skill-badge">Styling</span>
+            </div>
+            <h3 class="skill-name">CSS3</h3>
+            <p class="skill-desc">Modern layouts, custom variables, smooth transitions, Flexbox, and CSS Grid for visually polished designs.</p>
+            <div class="skill-accent-detail">
+              <span class="accent-dot">✦</span>
+              <span class="accent-text">Flexbox &amp; Grid</span>
+            </div>
+          </div>
+
+          <!-- Skill 3: JavaScript -->
+          <div class="skill-card reveal-on-scroll delay-3">
+            <div class="skill-card-top">
+              <div class="skill-icon-bubble">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#C58B9E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+              </div>
+              <span class="skill-badge">Scripting</span>
+            </div>
+            <h3 class="skill-name">JavaScript</h3>
+            <p class="skill-desc">Interactive DOM manipulation, event handling, ES6+ syntax, and dynamic functionality for lively user experiences.</p>
+            <div class="skill-accent-detail">
+              <span class="accent-dot">✦</span>
+              <span class="accent-text">ES6+ &amp; DOM Manipulation</span>
+            </div>
+          </div>
+
+          <!-- Skill 4: Responsive Web Design -->
+          <div class="skill-card reveal-on-scroll delay-1">
+            <div class="skill-card-top">
+              <div class="skill-icon-bubble">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#C58B9E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <span class="skill-badge">Layout</span>
+            </div>
+            <h3 class="skill-name">Responsive Web Design</h3>
+            <p class="skill-desc">Mobile-first fluid layouts, media queries, touch-friendly UI elements, and seamless adaptation across all screen sizes.</p>
+            <div class="skill-accent-detail">
+              <span class="accent-dot">✦</span>
+              <span class="accent-text">Mobile-First &amp; Cross-Device</span>
+            </div>
+          </div>
+
+          <!-- Skill 5: Git & GitHub -->
+          <div class="skill-card reveal-on-scroll delay-2">
+            <div class="skill-card-top">
+              <div class="skill-icon-bubble">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#C58B9E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="6" y1="3" x2="6" y2="15"></line>
+                  <circle cx="18" cy="6" r="3"></circle>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <path d="M18 9a9 9 0 0 1-9 9"></path>
+                </svg>
+              </div>
+              <span class="skill-badge">Version Control</span>
+            </div>
+            <h3 class="skill-name">Git &amp; GitHub</h3>
+            <p class="skill-desc">Source code version control, structured commits, branching workflows, repository management, and collaboration.</p>
+            <div class="skill-accent-detail">
+              <span class="accent-dot">✦</span>
+              <span class="accent-text">Branching &amp; Repositories</span>
+            </div>
+          </div>
+
+          <!-- Skill 6: WordPress -->
+          <div class="skill-card reveal-on-scroll delay-3">
+            <div class="skill-card-top">
+              <div class="skill-icon-bubble">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#C58B9E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M7 9l3 10 2.5-6.5L15 19l3-10"></path>
+                </svg>
+              </div>
+              <span class="skill-badge">CMS</span>
+            </div>
+            <h3 class="skill-name">WordPress</h3>
+            <p class="skill-desc">Content management, theme customizations, layout structures, and intuitive website maintenance workflows.</p>
+            <div class="skill-accent-detail">
+              <span class="accent-dot">✦</span>
+              <span class="accent-text">Content &amp; Customization</span>
+            </div>
+          </div>
+
+          <!-- Skill 7: Canva -->
+          <div class="skill-card reveal-on-scroll delay-1">
+            <div class="skill-card-top">
+              <div class="skill-icon-bubble">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#C58B9E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
+              <span class="skill-badge">Visual Design</span>
+            </div>
+            <h3 class="skill-name">Canva</h3>
+            <p class="skill-desc">Designing eye-catching social graphics, digital promotional assets, visual banners, and aesthetic color palettes.</p>
+            <div class="skill-accent-detail">
+              <span class="accent-dot">✦</span>
+              <span class="accent-text">Digital Assets &amp; Branding</span>
+            </div>
+          </div>
+
+          <!-- Skill 8: Social Media Marketing -->
+          <div class="skill-card reveal-on-scroll delay-2">
+            <div class="skill-card-top">
+              <div class="skill-icon-bubble">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#C58B9E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+              </div>
+              <span class="skill-badge">Strategy</span>
+            </div>
+            <h3 class="skill-name">Social Media Marketing</h3>
+            <p class="skill-desc">Content planning, visual branding, audience awareness, creative storytelling, and digital engagement strategies.</p>
+            <div class="skill-accent-detail">
+              <span class="accent-dot">✦</span>
+              <span class="accent-text">Engagement &amp; Growth</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Supportive Note Regarding Continuous Growth -->
+        <div class="skills-disclaimer reveal-on-scroll">
+          <span class="disclaimer-icon">✦</span>
+          <span class="disclaimer-text">Continuously expanding my technical web development foundation while exploring creative digital marketing strategies. ♡</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ==============================================
+         MY PROJECTS SECTION
+         ============================================== -->
+    <section class="projects-section" id="projects" aria-label="My Projects">
+      
+      <!-- Background Ambient Glow Orbs -->
+      <div class="projects-glow projects-glow-left" aria-hidden="true"></div>
+      <div class="projects-glow projects-glow-right" aria-hidden="true"></div>
+
+      <div class="projects-container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">
+            <span class="badge-dot" aria-hidden="true">✦</span>
+            <span class="badge-text">MY CREATIVE WORK</span>
+          </div>
+          <h2 class="section-title">Things I've <span class="highlight-text">Built</span></h2>
+          <p class="section-subtitle">A curated collection of web applications, responsive websites, and creative digital interfaces.</p>
+          <div class="header-divider" aria-hidden="true">
+            <span class="divider-line"></span>
+            <span class="divider-icon">✦</span>
+            <span class="divider-line"></span>
+          </div>
+        </div>
+
+        <!-- Projects Showcase (Centered Editorial Layout) -->
+        <div class="projects-grid single-project-grid">
+          
+          <!-- SINGLE PROJECT CARD: Personal Portfolio Website -->
+          <article class="project-card project-card-single reveal-on-scroll">
+            
+            <!-- Project Image Frame with Zoom Effect -->
+            <div class="project-media-wrapper">
+              <!-- Real Screenshot: assets/project3.jpg -->
+              <img 
+                src="assets/project3.jpg" 
+                alt="Personal Portfolio Website Preview Screenshot" 
+                class="project-preview-img" 
+                id="proj3-img"
+                loading="lazy"
+                onerror="this.style.display='none'; var p = document.getElementById('proj3-placeholder'); if(p) p.style.display='block';"
+              >
+              <!-- Aesthetic Fallback (only shown if real screenshot cannot load) -->
+              <div class="project-placeholder-preview" id="proj3-placeholder" style="display: none;">
+                <div class="browser-bar">
+                  <span class="browser-dot dot-red"></span>
+                  <span class="browser-dot dot-yellow"></span>
+                  <span class="browser-dot dot-green"></span>
+                  <span class="browser-url">sameen.dev/portfolio</span>
+                </div>
+                <div class="browser-content-canvas canvas-portfolio">
+                  <div class="canvas-header-mock">
+                    <span class="mock-logo">Sameen</span>
+                    <div class="mock-nav-pills">
+                      <span></span><span></span><span></span>
+                    </div>
+                  </div>
+                  <div class="canvas-hero-mock">
+                    <div class="mock-hero-text">
+                      <div class="mock-badge-line"></div>
+                      <div class="mock-title-line"></div>
+                      <div class="mock-subtitle-line"></div>
+                      <div class="mock-btn-line"></div>
+                    </div>
+                    <div class="mock-avatar-circle">
+                      <span class="mock-avatar-letter">S</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Floating Category Badge -->
+              <span class="project-category-badge badge-featured">✦ Featured Project</span>
+            </div>
+
+            <!-- Project Details Body -->
+            <div class="project-body">
+              <div class="project-header-meta">
+                <span class="project-eyebrow">Front-End Web Development</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-description">
+                A personal portfolio website designed to showcase my skills, learning journey, projects, and contact information with a responsive layout and elegant feminine design.
+              </p>
+
+              <!-- Features Grid (6 Key Features) -->
+              <div class="project-features-list">
+                <span class="feature-bullet-item"><span class="bullet-star">✦</span> Responsive Design</span>
+                <span class="feature-bullet-item"><span class="bullet-star">✦</span> Elegant UI</span>
+                <span class="feature-bullet-item"><span class="bullet-star">✦</span> Smooth Animations</span>
+                <span class="feature-bullet-item"><span class="bullet-star">✦</span> Skills Section</span>
+                <span class="feature-bullet-item"><span class="bullet-star">✦</span> About Me Section</span>
+                <span class="feature-bullet-item"><span class="bullet-star">✦</span> Contact Section</span>
+              </div>
+
+              <!-- Technologies Used -->
+              <div class="project-tech-stack">
+                <span class="tech-tag tech-tag-highlight">HTML</span>
+                <span class="tech-tag tech-tag-highlight">CSS</span>
+                <span class="tech-tag tech-tag-highlight">JavaScript</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <a 
+                  href="#home" 
+                  class="project-btn project-btn-view" 
+                  data-project="Personal Portfolio Website"
+                  aria-label="View Live Personal Portfolio Website"
+                >
+                  <span class="btn-text">Live Demo</span>
+                  <span class="btn-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </span>
+                </a>
+                <a 
+                  href="https://github.com/sameen-developer" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-btn project-btn-code" 
+                  data-placeholder="true"
+                  data-project="Personal Portfolio Website"
+                  title="Placeholder: Replace with your specific GitHub project repository URL if different"
+                  aria-label="GitHub Code for Personal Portfolio Website"
+                >
+                  <span class="btn-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="16 18 22 12 16 6"></polyline>
+                      <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                  </span>
+                  <span class="btn-text">GitHub Code</span>
+                </a>
+              </div>
+            </div>
+
+          </article>
+
+        </div>
+
+        <!-- Supportive Note Regarding Future Projects -->
+        <div class="projects-disclaimer reveal-on-scroll">
+          <span class="disclaimer-icon">✦</span>
+          <span class="disclaimer-text">More projects coming soon! I am actively learning and building new web applications to add to this showcase. ♡</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ==============================================
+         EDUCATION SECTION
+         ============================================== -->
+    <section class="education-section" id="education" aria-label="Education Journey">
+      
+      <!-- Background Ambient Glow Orbs -->
+      <div class="education-glow education-glow-left" aria-hidden="true"></div>
+      <div class="education-glow education-glow-right" aria-hidden="true"></div>
+
+      <div class="education-container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">
+            <span class="badge-dot" aria-hidden="true">✦</span>
+            <span class="badge-text">MY JOURNEY</span>
+          </div>
+          <h2 class="section-title">Education &amp; <span class="highlight-text">Learning</span></h2>
+          <p class="section-subtitle">Academic foundations in software engineering paired with continuous practical skill development.</p>
+          <div class="header-divider" aria-hidden="true">
+            <span class="divider-line"></span>
+            <span class="divider-icon">✦</span>
+            <span class="divider-line"></span>
+          </div>
+        </div>
+
+        <!-- Vertical Education Timeline -->
+        <div class="timeline-wrapper" id="timeline-wrapper">
+          
+          <!-- Animated Center Connecting Line -->
+          <div class="timeline-line" id="timeline-line" aria-hidden="true"></div>
+
+          <!-- Timeline Item 1: BS Software Engineering (Left on Desktop) -->
+          <div class="timeline-item timeline-left reveal-on-scroll delay-1">
+            
+            <!-- Timeline Center Node Indicator -->
+            <div class="timeline-node" aria-hidden="true">
+              <span class="node-icon">🎓</span>
+              <div class="node-pulse"></div>
+            </div>
+
+            <!-- Timeline Content Card -->
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <span class="timeline-badge">Academic Degree</span>
+                <span class="timeline-status-pill status-graduate">
+                  <span class="status-indicator">✦</span> Status: Graduate
+                </span>
+              </div>
+              <h3 class="timeline-title">BS Software Engineering</h3>
+              <p class="timeline-description">
+                Comprehensive degree in Software Engineering, establishing strong software engineering foundations, computer science fundamentals, and practical software design principles.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">Software Engineering</span>
+                <span class="timeline-tag">Computer Science</span>
+                <span class="timeline-tag">Web Foundations</span>
+                <span class="timeline-tag">Object-Oriented Design</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Timeline Item 2: Web Development (Right on Desktop) -->
+          <div class="timeline-item timeline-right reveal-on-scroll delay-2">
+            
+            <!-- Timeline Center Node Indicator -->
+            <div class="timeline-node" aria-hidden="true">
+              <span class="node-icon">💻</span>
+              <div class="node-pulse"></div>
+            </div>
+
+            <!-- Timeline Content Card -->
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div class="timeline-badges-group">
+                  <span class="timeline-badge badge-accent">Practical Development</span>
+                  <span class="timeline-duration-badge"><span class="duration-icon" aria-hidden="true">⏱️</span> 3 Months</span>
+                </div>
+                <span class="timeline-status-pill status-learning">
+                  <span class="status-indicator">⚡</span> Learning &amp; Building
+                </span>
+              </div>
+              <h3 class="timeline-title">Web Development</h3>
+              <p class="timeline-description">
+                Learning and building practical projects with HTML5, CSS3, JavaScript, and responsive design, while continually exploring modern tools and frontend workflows.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">HTML5 &amp; CSS3</span>
+                <span class="timeline-tag">JavaScript</span>
+                <span class="timeline-tag">Responsive UI</span>
+                <span class="timeline-tag">Practical Projects</span>
+                <span class="timeline-tag tag-duration">3 Months</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Timeline Item 3: Social Media Marketing (SMM) (Left on Desktop) -->
+          <div class="timeline-item timeline-left reveal-on-scroll delay-3">
+            
+            <!-- Timeline Center Node Indicator -->
+            <div class="timeline-node" aria-hidden="true">
+              <span class="node-icon">📱</span>
+              <div class="node-pulse"></div>
+            </div>
+
+            <!-- Timeline Content Card -->
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div class="timeline-badges-group">
+                  <span class="timeline-badge">Creative Marketing</span>
+                  <span class="timeline-duration-badge"><span class="duration-icon" aria-hidden="true">⏱️</span> 3 Months</span>
+                </div>
+                <span class="timeline-status-pill status-marketing">
+                  <span class="status-indicator">📈</span> Practical Skills
+                </span>
+              </div>
+              <h3 class="timeline-title">Social Media Marketing (SMM)</h3>
+              <p class="timeline-description">
+                Learning practical marketing skills focused on creative visual campaigns, digital audience engagement, brand storytelling, and modern social media strategy.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">Digital Marketing</span>
+                <span class="timeline-tag">Content Strategy</span>
+                <span class="timeline-tag">Brand Aesthetics</span>
+                <span class="timeline-tag">Visual Storytelling</span>
+                <span class="timeline-tag tag-duration">3 Months</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Supportive Note Regarding Education -->
+        <div class="education-disclaimer reveal-on-scroll">
+          <span class="disclaimer-icon" aria-hidden="true">✦</span>
+          <span class="disclaimer-text">Continuously expanding my engineering knowledge through hands-on development, exploration, and creative practice. ♡</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ==============================================
+         CONTACT SECTION
+         ============================================== -->
+    <section class="contact-section" id="contact" aria-label="Contact Sameen">
+
+      <!-- Ambient Background Glow Orbs -->
+      <div class="contact-glow contact-glow-left" aria-hidden="true"></div>
+      <div class="contact-glow contact-glow-right" aria-hidden="true"></div>
+
+      <div class="contact-container">
+
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">
+            <span class="badge-dot" aria-hidden="true">✦</span>
+            <span class="badge-text">LET'S CONNECT</span>
+          </div>
+          <h2 class="section-title">Let's create something <span class="highlight-text">lovely</span></h2>
+          <p class="section-subtitle">Whether you have an exciting project, a collaboration opportunity, or simply want to say hello, I'd love to hear from you.</p>
+          <div class="header-divider" aria-hidden="true">
+            <span class="divider-line"></span>
+            <span class="divider-icon">✦</span>
+            <span class="divider-line"></span>
+          </div>
+        </div>
+
+        <!-- Two-Column Contact Grid -->
+        <div class="contact-grid">
+
+          <!-- LEFT COLUMN: Contact Info + Social Links -->
+          <div class="contact-left reveal-on-scroll delay-1">
+
+            <!-- Warm Intro Card -->
+            <div class="contact-intro-card">
+              <div class="intro-header">
+                <span class="intro-sparkle">✦</span>
+                <h3 class="intro-heading">Say Hello!</h3>
+              </div>
+              <p class="intro-body">
+                I'm always open to discussing new web development opportunities, creative design ideas, or frontend collaborations. Drop me a note and let's turn vision into beautiful digital reality!
+              </p>
+            </div>
+
+            <!-- Contact Detail Items -->
+            <div class="contact-info-list">
+
+              <!-- Email -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-info-body">
+                  <span class="contact-info-label">Direct Email</span>
+                  <a href="mailto:sameend790@gmail.com" class="contact-info-value contact-email-link" id="contact-email-val" title="Click to send an email to Sameen">sameend790@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-info-body">
+                  <span class="contact-info-label">Based in</span>
+                  <span class="contact-info-value">Pakistan 🇵🇰</span>
+                </div>
+              </div>
+
+              <!-- Profession -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <div class="contact-info-body">
+                  <span class="contact-info-label">Current Role</span>
+                  <span class="contact-info-value">Web Developer</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Social Media Link Cards -->
+            <div class="contact-socials">
+              <h4 class="socials-heading">Connect on Socials</h4>
+              <div class="social-links-row">
+
+                <!-- LinkedIn (Connected to actual profile) -->
+                <a
+                  href="https://www.linkedin.com/in/sameen-aqeel/"
+                  class="social-link-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit Sameen's LinkedIn Profile (opens in new tab)"
+                  title="Visit Sameen's LinkedIn Profile"
+                >
+                  <span class="social-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </span>
+                  <div class="social-info">
+                    <span class="social-label">LinkedIn</span>
+                    <span class="social-sublabel">sameen-aqeel ↗</span>
+                  </div>
+                </a>
+
+                <!-- GitHub (Connected to actual profile) -->
+                <a
+                  href="https://github.com/codebysameen"
+                  class="social-link-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit Sameen's GitHub Profile (opens in new tab)"
+                  title="Visit Sameen's GitHub Profile"
+                >
+                  <span class="social-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </span>
+                  <div class="social-info">
+                    <span class="social-label">GitHub</span>
+                    <span class="social-sublabel">codebysameen ↗</span>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- RIGHT COLUMN: Contact Form -->
+          <div class="contact-right reveal-on-scroll delay-2">
+
+            <div class="contact-form-card">
+              <div class="form-card-header">
+                <span class="form-card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </span>
+                <div class="form-card-title-group">
+                  <h3 class="form-card-title">Send Me a Message</h3>
+                  <p class="form-card-subtitle">Fill out the details below and I'll get back to you promptly.</p>
+                </div>
+              </div>
+
+              <!-- Contact Form -->
+              <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+
+                <!-- Full Name -->
+                <div class="form-group" id="fg-name">
+                  <label for="contact-name" class="form-label">
+                    Full Name <span class="required-star" aria-hidden="true">*</span>
+                  </label>
+                  <div class="form-input-wrapper">
+                    <span class="form-input-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                      </svg>
+                    </span>
+                    <input
+                      type="text"
+                      id="contact-name"
+                      name="full_name"
+                      class="form-input"
+                      placeholder="Your full name"
+                      autocomplete="name"
+                      aria-required="true"
+                      aria-describedby="error-name"
+                    >
+                  </div>
+                  <span class="form-error" id="error-name" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Email Address -->
+                <div class="form-group" id="fg-email">
+                  <label for="contact-email" class="form-label">
+                    Email Address <span class="required-star" aria-hidden="true">*</span>
+                  </label>
+                  <div class="form-input-wrapper">
+                    <span class="form-input-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                      </svg>
+                    </span>
+                    <input
+                      type="email"
+                      id="contact-email"
+                      name="email"
+                      class="form-input"
+                      placeholder="your@email.com"
+                      autocomplete="email"
+                      aria-required="true"
+                      aria-describedby="error-email"
+                    >
+                  </div>
+                  <span class="form-error" id="error-email" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Subject -->
+                <div class="form-group" id="fg-subject">
+                  <label for="contact-subject" class="form-label">
+                    Subject <span class="required-star" aria-hidden="true">*</span>
+                  </label>
+                  <div class="form-input-wrapper">
+                    <span class="form-input-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="8" y1="6" x2="21" y2="6"></line>
+                        <line x1="8" y1="12" x2="21" y2="12"></line>
+                        <line x1="8" y1="18" x2="21" y2="18"></line>
+                        <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                        <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                        <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                      </svg>
+                    </span>
+                    <input
+                      type="text"
+                      id="contact-subject"
+                      name="subject"
+                      class="form-input"
+                      placeholder="What's this about?"
+                      aria-required="true"
+                      aria-describedby="error-subject"
+                    >
+                  </div>
+                  <span class="form-error" id="error-subject" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group" id="fg-message">
+                  <label for="contact-message" class="form-label">
+                    Message <span class="required-star" aria-hidden="true">*</span>
+                  </label>
+                  <div class="form-input-wrapper textarea-wrapper">
+                    <span class="form-input-icon textarea-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                      </svg>
+                    </span>
+                    <textarea
+                      id="contact-message"
+                      name="message"
+                      class="form-input form-textarea"
+                      placeholder="Tell me about your project, idea, or just say hello..."
+                      rows="5"
+                      aria-required="true"
+                      aria-describedby="error-message"
+                    ></textarea>
+                  </div>
+                  <span class="form-error" id="error-message" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn-send-message" id="btn-send-message">
+                  <span class="btn-send-text">Send Message</span>
+                  <span class="btn-send-icon" aria-hidden="true">
+                    <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
+                      <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
+                    </svg>
+                  </span>
+                </button>
+
+              </form>
+
+              <!-- Success / Action Card -->
+              <div class="form-success-message" id="form-success" aria-live="polite" role="status">
+                <div class="success-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#C58B9E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
+                <h4 class="success-heading" id="success-heading">Message Ready to Send!</h4>
+                <p class="success-body" id="success-body">
+                  Thank you, <strong id="success-name-display" class="highlight-name-inline">Friend</strong>! Your message details have been validated.
+                  <span class="success-subnote">This portfolio operates in client preview mode. You can open your default email app to send it directly to Sameen right now, or configure a form endpoint (such as Formspree or EmailJS) in <code>script.js</code>.</span>
+                </p>
+                <div class="success-actions">
+                  <a href="#" class="btn-mail-client" id="btn-open-mail" target="_blank" rel="noopener">
+                    <span>Open in Email App</span>
+                    <span class="btn-send-icon" aria-hidden="true">✉️</span>
+                  </a>
+                  <button class="btn-send-another" id="btn-send-another" type="button">
+                    <span>Write Another Message</span>
+                    <span aria-hidden="true">↺</span>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ==============================================
+         PAGE FOOTER
+         ============================================== -->
+    <footer class="site-footer" aria-label="Site footer">
+      <div class="footer-container">
+        
+        <div class="footer-top-row">
+          <div class="footer-brand">
+            <span class="footer-logo">Sameen<span class="footer-logo-dot">.</span></span>
+            <p class="footer-tagline">Crafting thoughtful, modern web experiences with clean code &amp; feminine aesthetic detail.</p>
+          </div>
+
+          <!-- Back to Top Button -->
+          <a href="#home" class="back-to-top-btn" id="back-to-top-btn" aria-label="Scroll back to top of page">
+            <span class="back-to-top-text">Back to Top</span>
+            <span class="back-to-top-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="18 15 12 9 6 15"></polyline>
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="footer-divider" aria-hidden="true"></div>
+
+        <div class="footer-bottom-row">
+          <p class="footer-copy">
+            &copy; <span id="footer-year">2026</span> Sameen. Designed with care &amp; elegance. ♡
+          </p>
+          <div class="footer-badge">
+            <span class="footer-badge-dot">✦</span>
+            <span>Web Developer Portfolio</span>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- Global Toast Notification for CV button, project buttons, and alerts -->
+    <div class="aesthetic-toast" id="aesthetic-toast" role="status" aria-live="polite">
+      <span class="toast-icon" id="toast-icon">✦</span>
+      <span class="toast-message" id="toast-message"></span>
+    </div>
+
+  </main>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
